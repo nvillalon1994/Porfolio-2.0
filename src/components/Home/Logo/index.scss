@@ -1,0 +1,51 @@
+.logo-container {
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+    
+    opacity: 0;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+   
+  
+    .solid-logo {
+      
+      
+      height: 500px;
+      opacity: 0;
+      // transform: rotateZ(30deg) !important;
+      z-index: 1;
+    }
+  }
+
+
+@media screen and(max-width:765px) {
+  .logo-container{
+    .solid-logo{
+      height: 100px;
+    }
+    // display: none;
+  }
+}
+@media screen and(max-width:1024px) {
+  .logo-container{
+    width: 30%;
+    .solid-logo{
+      height: 400px;
+    }
+  }
+}
+@media  screen and (min-width:1367px) {
+  .logo-container{
+    
+    .solid-logo{
+      height: 700px;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.home-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // background-color: #3dd2ff;
+    .text-zone {
+      margin: auto;
+      
+      // position: absolute;
+      // left: 10%;
+      // top: 50%;
+      // transform: translateY(-50%);
+      // width: 40%;
+      // max-height: 90%;
+    }
+  
+    h1 {
+      background: linear-gradient(#ff00b3,rgb(4, 205, 255));
+        
+      -webkit-background-clip: text;
+      color: white;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      position: relative;
+  
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        background: linear-gradient(#ff00b3,rgb(4, 205, 255));
+        
+        -webkit-background-clip: text;
+        color: transparent;  
+        width: fit-content;
+        height: 35px;
+        font-size: 22px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+  
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        background: linear-gradient(rgb(61, 210, 255),#d65df5);
+        -webkit-background-clip: text;
+        color: transparent; 
+        font-size: 22px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+  
+      img {
+        margin-left: 20px;
+        opacity: 0;
+        width: 32px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+    
+    h2 {
+      color: #8d8d8d;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 12px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+  
+    .flat-button {
+      
+      color: #3dd2ff;
+      border: 1px solid #3dd2ff;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      
+      margin-top: 25px;
+      float: left;
+      animation: fadeInAnimation 1s 1.8s backwards;
+      white-space: nowrap;
+  
+      &:hover {
+        background: linear-gradient(90deg,#ff00b3,rgb(4, 205, 255));
+        color: white;
+        border: transparent;
+        box-shadow: 1px 1px 4px white;
+        font-weight: 600;
+        font-family: 'Helvetica';
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+
+  
