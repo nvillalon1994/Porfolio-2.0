@@ -74,6 +74,7 @@
 }
 .stage-cube-cont2 {
   display: none;
+  
     margin-left: 110%;
     
   }
@@ -191,14 +192,15 @@
     }
     .stage-cube-cont2{
       display: block;
-      top:120px;
+      top:160px;
       
       }
     .about-page{
       .text-zone{
         .text-2{
           h1{
-            font-size: 40px;
+            font-size: 32px;
+            margin-top: 0;
           }
         }
       }
