@@ -1,3 +1,4 @@
+
 .skills-container{
     display: flex;
     height: 100%;
@@ -10,12 +11,12 @@
     width: 100%;
     
     border-radius: 10px;
-    padding: 25px 30px;
+    padding: 40px 30px;
     
 
 }
 .skill-bars{
-    padding: 25px 30px;
+    padding: 0 0 0 0;
     width: 100%;
     
     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
@@ -32,7 +33,7 @@
   }
   .skill-bars .bar .info span{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 11px;
     color: white;
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
