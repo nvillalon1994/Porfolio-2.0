@@ -20,13 +20,44 @@ const About =()=>{
         <div className='container about-page'>
             
             <div className='text-zone'>
-                <h1>
+
+                <div className='text-2'>
+                    <h1>
                     <AnimatedLetters 
                     letterClass={letterClass}
                     strArray={['A','b','o','u','t',' ','m','e']}
                     idx={15}
                     />
-                </h1>
+                    </h1>
+                    <div className='cubo2'>
+                        <div className='stage-cube-cont2'>
+                            <div className='cubespinner2'>
+                                <div className='face1'>
+                                    <FontAwesomeIcon icon={faReact} color='#5ed4f4' />
+                                </div>
+                                <div className='face2'>
+                                    <FontAwesomeIcon icon={faHtml5} color='#f06529' />
+                                </div>
+                                <div className='face3'>
+                                    <FontAwesomeIcon icon={faCss3} color='#28a4d9' />
+                                </div>
+                                <div className='face4'>
+                                    <FontAwesomeIcon icon={faJsSquare} color='#efd81d' />
+                                </div>
+                                <div className='face5'>
+                                    <FontAwesomeIcon icon={faGitAlt} color='#' />
+                                </div>
+                                <div className='face6'>
+                                    <FontAwesomeIcon icon={faNodeJs} color='#22a522' />
+                                </div>
+                            </div>
+                    
+
+                        </div>
+                    </div>
+                    
+            </div>
+                
                 
                 <p>
                     I'm very ambitious front-end developer looking for a role in
