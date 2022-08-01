@@ -113,8 +113,8 @@
       .text-zone{
         display: flex;
         flex-direction: column;
-        // justify-content: space-around;
-        height: 70%;
+        justify-content: center;
+        height: 50%;
         
         margin-top: 0;
         
@@ -172,7 +172,7 @@
         }
         h2{
           margin-left: 20px;
-          margin-top: 40px;
+          margin-top: 10px;
           font-size: 18px;
         }
         .flat-button{
