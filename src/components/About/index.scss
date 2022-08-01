@@ -116,3 +116,50 @@
       transition: all 0.3s ease-in-out;
     }
   }
+
+  @media screen and(max-width:765px) {
+    .about-page{
+      .text-zone{
+        
+        // background-color: red;
+        
+      }
+    }
+    .stage-cube-cont{
+      // display: none;
+      top:120px;
+      .cubespinner{
+        transform-origin: 50px 50px 0;
+        margin-left: calc(50% - 50px);
+        div{
+        width: 80px;
+        height: 80px;
+        font-size: 60px;
+        }
+        .face1 {
+          transform: rotateX(90deg) translateZ(40px);
+          
+        }
+        .face2 {
+          transform:  translateZ(40px);
+          
+        }
+        .face3 {
+          transform:  translateZ(-40px) ;
+          
+        }
+        .face4 {
+          transform: rotateY(90deg) translateZ(40px);
+          
+        }
+        .face5 {
+          transform: rotateY(-90deg) translateZ(40px);
+          
+        }
+        .face6 {
+          transform: rotateX(-90deg) translateZ(40px);
+          
+        }
+      }
+    }
+  }

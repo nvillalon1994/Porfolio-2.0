@@ -35,27 +35,31 @@
       opacity: 1;
     }
   }
-@media screen and(max-width:765px) {
-  .logo-container{
-    .solid-logo{
-      height: 100px;
-    }
-    // display: none;
-  }
-}
-@media screen and(max-width:1024px) {
-  .logo-container{
-    width: 30%;
-    .solid-logo{
-      height: 400px;
+  @media screen and(max-width:765px) {
+    .logo-container{
+      margin-top: 30px;
+      animation-delay: 1s;
+      
+      
     }
   }
-}
-@media  screen and (min-width:1367px) {
-  .logo-container{
-    
-    .solid-logo{
-      height: 700px;
+  @media screen and(max-width:1024px) {
+    .logo-container{
+      height: 30%;
+      
+      .solid-logo{
+        height: 80%;
+        margin-top: 80px;
+        // margin-left: 70px;
+        // margin-bottom: -180px;
+      }
     }
   }
-}
+  @media  screen and (min-width:1367px) {
+    .logo-container{
+      
+      .solid-logo{
+        height: 700px;
+      }
+    }
+  }

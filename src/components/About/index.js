@@ -18,6 +18,7 @@ const About =()=>{
     return(
         <>
         <div className='container about-page'>
+            
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
@@ -26,6 +27,7 @@ const About =()=>{
                     idx={15}
                     />
                 </h1>
+                
                 <p>
                     I'm very ambitious front-end developer looking for a role in
                     established IT company with the opportunity to work with the latest
