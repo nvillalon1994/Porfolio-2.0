@@ -5,6 +5,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimationLetters'
 import './index.scss'
 import pdf from './downloads/Natalio Villalón CV.pdf'
+import cvpdf from'./downloads/Villalón-Natalio CV.pdf'
 const About =()=>{
     const [letterClass, setLetterClass] = useState('text-animate')
     const a =()=>{
@@ -73,7 +74,7 @@ const About =()=>{
                     person,musician, and tech-obsessed!!!
                 </p>
                 
-                <a  href={pdf} download="Natalio Villalón CV.pdf" target="_blank"><button  downloads="Natalio Villalón CV" class="flat-button" >DOWNLOAD CV</button></a>
+                <a  href={cvpdf} download="Natalio Villalón CV.pdf" target="_blank"><button  downloads="Natalio Villalón CV" class="flat-button" >DOWNLOAD CV</button></a>
             </div>
             
             <div className='stage-cube-cont'>
